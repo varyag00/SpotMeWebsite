@@ -52,6 +52,9 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="assets/cool-share/plugin.css" media="all" rel="stylesheet" />
+
     <link rel="stylesheet" type="text/css" href="styles.css">
 
 
@@ -189,7 +192,7 @@
 </div>
 
 
-<div class="container contentContainer marginTop" id="contact">
+<div class="container marginTop" id="contact">
 
     <div class="row">
         <h1 class="center title whiteborder"> Questions? Concerns? Contact us: </h1>
@@ -201,8 +204,16 @@
 
     </div>
 
+    <div class="row">
+
+        <span style="background-color: white;" class="glyphicon socialShare"></span> <p class="center whiteborder"> Share us on social media!</p>
+
+    </div>
 
 </div>
+
+<script src="assets/cool-share/plugin.js"></script>
+
 
 <script type="text/javascript">
 
@@ -212,6 +223,24 @@
     //set height of div to window height
     $(".contentContainer").css("min-height", $(window).height())
 
+
+//    playing with social media buttons
+
+    //todo: update the URL to our page when we transfer over the domain
+    var url = 'http://79.170.40.244/danstestingsite.com/files/';
+
+    var options = {
+
+        twitter: {
+            text: 'Check out this awesome training log app for iOS!',
+            via: 'varyag00' //note: this is where your twitter account goes
+        },
+
+        facebook : true,
+        googlePlus : true
+    };
+
+    $('.socialShare').shareButtons(url, options);
 
 </script>
 
