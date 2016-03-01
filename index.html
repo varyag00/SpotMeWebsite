@@ -55,8 +55,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="assets/cool-share/plugin.css" media="all" rel="stylesheet" />
 
+
+
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet" href="social/ml-social-buttons.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="social/font/font.css" type="text/css" charset="utf-8" />
 
 
 
@@ -109,7 +113,7 @@
 
             <h1 class="whiteborder">Spot.Me Training Log</h1>
 
-            <p class="lead whiteborder"> It just works. Download today.</p>
+            <p class="lead whiteborder"> Made for the smart lifter. </p>
 
             <p class="whiteborder"> Spot.Me is the premier weight training tracking log for iOS. Spot.Me allows you to create training programs, track individual workouts as well as long-term training trends, calculate vital training metrics, and visualize your training progress. </p>
 
@@ -151,9 +155,9 @@
             <h2 class="whiteborder">
                 <span class="glyphicon glyphicon-pencil"></span>
                 Create Programs</h2>
-            <p class="whiteborder"> Describe Spot.Me's best features. Then continue doing it. On and on and on... On and on and on... On and on and on... On and on and on... On and on and on... On and on and on...  </p>
+            <p class="whiteborder"> Whether you're working out once per week or you're doing two-a-days, Spot.Me has you covered. Our streamlined training program creation tool allows you to quickly make and customize nearly any program, or enjoy out-of-the-box support for popular strength and hypertrophy programs like Starting Strength, Stronglifts 5x5, 5/3/1 and many more. </p>
 
-            <button class="btn btn-success marginTop"> Sign Up</button>
+            <button class="btn btn-success marginTop"> <a href="#download"> Sign Up </a> </button>
         </div>
 
         <div class="col-md-4 marginTop">
@@ -161,7 +165,7 @@
             <h2 class="whiteborder">
                 <span class="glyphicon glyphicon-ok"></span>
                 Log Workouts</h2>
-            <p class="whiteborder"> Describe Spot.Me's best features. Then continue doing it. On and on and on... On and on and on... On and on and on... On and on and on... On and on and on... On and on and on...  </p>
+            <p class="whiteborder"> Spot.Me features a gorgeous, focused workout-in-progress screen that allows you to quickly log your sets, reps, or any other training metrics you track. Your time is precious, and with Spot.Me you'll be able to spend more time enjoying your training and less time fliddling with your phone or a clumsy notebook. </p>
 
             <button class="btn btn-success marginTop"> Sign Up</button>
         </div>
@@ -171,7 +175,7 @@
             <h2 class="whiteborder">
                 <span class="glyphicon glyphicon-stats"></span>
                 Visualize Progress</h2>
-            <p class="whiteborder"> Describe Spot.Me's best features. Then continue doing it. On and on and on... On and on and on... On and on and on... On and on and on... On and on and on... On and on and on...  </p>
+            <p class="whiteborder"> You work hard to achieve your goals, and Spot.Me keeps you on track by visualizing the fruits of your labour through beautiful graphs. Wondering how much your clean & jerk max varies from workout to workout, week to week, or month to month? Or whether your squats have improved relative to your bodyweight over the course of your previous training program? Spot.Me has you covered.</p>
 
             <button class="btn btn-success marginTop"> Sign Up</button>
         </div>
@@ -183,8 +187,8 @@
 <div class="container contentContainer marginTop" id="download">
 
     <div class="row">
-        <h1 class="center title whiteborder"> Ready to lift? </h1>
-        <p class="load whiteborder center"> For real please download Spot.Me </a></p>
+        <h1 class="center title whiteborder"> Ready to download? </h1>
+        <p class="load whiteborder center"> Coming soon </a></p>
         <p class="center marginTop"> <img id="appstore" src="images/appstore.svg"> </p>
 
     </div>
@@ -196,7 +200,7 @@
 <div class="container marginTop" id="contact">
 
     <div class="row">
-        <h1 class="center title whiteborder"> Questions? Concerns? Contact us: </h1>
+        <h3 class="center title whiteborder"> Contact us: </h3>
         <p class="load whiteborder center">
 
             <a href="mailto:d.gonzalez0902@gmail.com?Subject=SpotMe%20Support" target="_top"> <span class="glyphicon glyphicon-envelope"></span> Send Mail</a>
@@ -205,40 +209,23 @@
 
     </div>
 
-    <div class="row">
+    <!--<div class="row">-->
 
-         <p class="center whiteborder"> Find us on social media:</p> <span style="background-color: white;" class="socialShare"></span>
+         <!--<p class="center whiteborder"> Find us on social media:</p> <span style="background-color: white;" class="socialShare"></span>-->
 
+    <!--</div>-->
+
+
+    <div class="socialContainer row center-block">
+        <a href="https://www.facebook.com/SpotMeApp" class="facebook" title="Facebook"></a>
+        <a href="https://twitter.com/spotmetheapp" class="twitter" title="Twitter"></a>
+        <a href="https://plus.google.com/+spotmeapp/" class="google" title="Google+"></a>
+        <a href="https://www.instagram.com/spotmeapp/" class="instagram" title="Instagram"></a>
     </div>
 
-
-
-
-
 </div>
 
-<div class="container center">
 
-    <section>
-        <ul id='services'>
-            <h2>Social</h2>
-            <li>
-                <div class='entypo-facebook'></div>
-                <span>Facebook</span>
-            </li>
-            <li>
-                <div class='entypo-twitter'></div>
-                <span>Twitter</span>
-            </li>
-            <li>
-                <div class='entypo-gplus'></div>
-                <span>Google Plus</span>
-            </li>
-
-        </ul>
-    </section>
-
-</div>
 
 <script src="assets/cool-share/plugin.js"></script>
 
@@ -255,20 +242,20 @@
 //    playing with social media buttons
 
     //todo: update the URL to our page when we transfer over the domain
-    var url = 'http://79.170.40.244/danstestingsite.com/files/';
-
-    var options = {
-
-        twitter: {
-            text: 'Check out this awesome training log app for iOS!',
-            via: 'varyag00' //note: this is where your twitter account goes
-        },
-
-        facebook : true,
-        googlePlus : true
-    };
-
-    $('.socialShare').shareButtons(url, options);
+//    var url = 'http://79.170.40.244/danstestingsite.com/files/';
+//
+//    var options = {
+//
+//        twitter: {
+//            text: 'Check out this new awesome training log app for iOS!',
+//            via: 'varyag00' //note: this is where your twitter account goes
+//        },
+//
+//        facebook : true,
+//        googlePlus : true
+//    };
+//
+//    $('.socialShare').shareButtons(url, options);
 
 </script>
 

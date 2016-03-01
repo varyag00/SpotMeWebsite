@@ -1,7 +1,7 @@
 
 body {
     /*TODO: play with this to see what looks best, if you set it to >0 you'll need to highlight home manually*/
-    padding-top: 0px;
+    /*padding-top: 0px;*/
     background-color: #020202;
 }
 
@@ -63,8 +63,15 @@ body {
     font-size: 300%;
 }
 
+#about{
+
+}
+
 #download{
     padding-top: 200px;
+    background-color: #1854ED;
+    width: 100%;
+
 }
 
 #appstore{
